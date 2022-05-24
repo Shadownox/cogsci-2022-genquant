@@ -3,7 +3,7 @@ cogsci-2022-genquant
 
 Companion repository for the 2022 article "Generalizing Syllogistic Reasoning: Extending Syllogisms to General Quantifiers" published in the proceedings of the 44rd Annual Meeting of the Cognitive Science Society.
 
-# Overview
+## Overview
 
 - `analysis`: Contains the analysis scripts generating the results and figures from the paper.
 - `analysis/comparison.py`: Script for comparing the Ragni2016 dataset (traditional syllogisms) to the Ragni2021 dataset (generalized quantifiers). Generates a plot visualizing both patterns (*Figure 1*) and calculates the RMSE.
@@ -16,7 +16,7 @@ Companion repository for the 2022 article "Generalizing Syllogistic Reasoning: E
 - `data/Ragni2016.csv`: Ragni2016 dataset from the CCOBRA framework containing responses to traditional syllogisms.
 - `data/Ragni2021.csv`: Responses to all 144 syllogisms with the quantifiers *All*, *Some*, *Some not*, *No*, *Most* and *Most not*.
 
-# Analysis Scripts
+## Analysis Scripts
 
 ### Dependencies
 
@@ -42,6 +42,6 @@ All scripts can be executed without entering additional parameters. The scripts 
 $> python [script].py
 ```
 
-### References
+## References
 
 Brand, D., Mittenbühler, M., & Ragni, M. (2022). Generalizing Syllogistic Reasoning: Extending Syllogisms to General Quantifiers. In proceedings of the 44rd Annual Meeting of the Cognitive Science Society.
